@@ -7,11 +7,13 @@ def test_case_1():
     expected = True
     assert actual == expected
 
+
 def test_case_2():
     nums = [1, 2, 3, 4]
     actual = containsDuplicate(nums)
     expected = False
     assert actual == expected
+
 
 def test_case_3():
     nums = [1, 1, 1, 3, 3, 4, 3, 2, 4, 2]

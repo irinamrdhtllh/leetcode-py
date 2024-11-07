@@ -8,12 +8,14 @@ def test_case_1():
     expected = True
     assert actual == expected
 
+
 def test_case_2():
     s = "rat"
     t = "car"
     actual = isAnagram(s, t)
     expected = False
     assert actual == expected
+
 
 def test_case_3():
     s = "aacc"

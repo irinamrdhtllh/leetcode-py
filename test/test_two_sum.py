@@ -8,12 +8,14 @@ def test_case_1():
     expected = [0, 1]
     assert actual == expected
 
+
 def test_case_2():
     nums = [3, 2, 4]
     target = 6
     actual = twoSum(nums, target)
     expected = [1, 2]
     assert actual == expected
+
 
 def test_case_3():
     nums = [3, 3]
